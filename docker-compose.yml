@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  pepe-api:
+    image: nginx:alpine
+    container_name: peorrete
+  pepe2-api:
+    image: nginx:alpine
+    container_name: peorrete2
+  pepe3:
+    image: nginx:alpine
+    container_name: peorrete3
+  pepe4:
+    image: nginx:alpine
+    container_name: peorrete4
+  pepe5:
+    image: nginx:alpine
+    container_name: peorrete5
+  pepe6:
+    image: nginx:alpine
+    container_name: peorrete6
+  pepe7:
+    image: nginx:alpine
+    container_name: peorrete7
+  pepe8:
+    image: nginx:alpine
+    container_name: peorrete8
+  pepe9:
+    image: nginx:alpine
+    container_name: peorrete9

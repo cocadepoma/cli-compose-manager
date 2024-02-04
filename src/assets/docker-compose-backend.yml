@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  login-api:
+    image: nginx:alpine
+    container_name: compose-service-login-api
+    labels:
+      - com.host.description=backend
+  users-api:
+    image: nginx:alpine
+    container_name: compose-service-users-api
+    labels:
+      - com.host.description=backend

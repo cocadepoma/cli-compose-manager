@@ -1,0 +1,1 @@
+export const CONTAINER_PREFIX = 'compose-service';

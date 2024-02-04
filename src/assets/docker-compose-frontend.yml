@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  login:
+    image: nginx:alpine
+    container_name: compose-service-login
+    labels:
+      - com.host.description=frontend    
+  admin:
+    image: nginx:alpine
+    container_name: compose-service-maint
+    labels:
+      - com.host.description=frontend    
+  user:
+    image: nginx:alpine
+    container_name: compose-service-user
+    labels:
+      - com.host.description=frontend    
